@@ -53,5 +53,5 @@ def buy_file():
         return send_from_directory('./', file["file"])
 
 if __name__ == '__main__':
-    app.debug = True
+    #app.debug = True
     app.run(host='0.0.0.0')
