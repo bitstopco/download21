@@ -2,7 +2,9 @@ download21 - Turning Satoshis into Offline Files
 ===========================================================
 
 This is a project to allow device to device offline caching of files from streaming/music sites
+
 Wraps the [youtube_dl](https://github.com/rg3/youtube-dl) library under the Bitcoin Machine payments protocol for off-chain sales
+
 Supports the [following sites](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)
 
 
@@ -15,6 +17,7 @@ Getting Started
 ---------------
 
 SSH to your 21 Computer and follow along to get started
+
 The only dependency is youtube_dl which can be downloaded like so
 
 
@@ -37,6 +40,7 @@ cd download21
 ![Download](http://i.imgur.com/PFx83ZY.png) 
 
 In order, we are cloning a copy of this repository. It will be placed in the current folder under a new folder called 'download21'
+
 We are then moving to the download21 folder to verify we have a 'client' and 'server' folder
 
 
@@ -50,6 +54,7 @@ python3 download21.py
 ![Run A Server](http://i.imgur.com/KA6mu64.png) 
 
 In order, we are moving to the server directory and launching the server.
+
 Congrats, you're serving up files, anyone can now use your web server.
 
 Running the Demo Client
@@ -57,6 +62,7 @@ Running the Demo Client
 
 In order to simplify the operations, we packaged a demo version of the client that will extract some sample files
 These files will be extracted from your own server.
+
 We are also assuming you are logged in as the account twenty-client and downloaded the files under the account twenty
 
 ```
