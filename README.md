@@ -21,7 +21,7 @@ Here's the full client call
 ```
 python3 download21client.py <link-to-video> <method-of-extraction> <format> [optional: specific-host]
 
-example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM download/video  mp4 http://110.244.53.126/5000/
+example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM download/video  mp4 http://110.244.53.126:5000/
 ```
 
 ![Run The Full Client](http://i.imgur.com/67yoYRI.png) 
