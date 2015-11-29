@@ -15,7 +15,6 @@ wallet = Wallet()
 payment = Payment(app, wallet)
 
 files={}
-hash=''
 
 #Need the following - format, url
 @app.route('/download/audio/', methods=['GET'])
