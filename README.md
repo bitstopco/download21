@@ -1,4 +1,4 @@
-download21 - Turning Satoshis into Offline Files
+download21 - Serving files for satoshis via the 21 BC
 ===========================================================
 
 This is a project to allow device to device offline caching of files from streaming/music sites
@@ -74,13 +74,15 @@ python3 download21client.py sample
 
 This will download one youtube video as mp4, one youtube video as mp3 and one soundcloud file as mp3
 
-Running the Full Client
+Running the Full Client & Purchasing a File
 -----------------------
 
 Here's the full client call
 
 ```
 python3 download21client.py <link-to-video> <method-of-extraction> <format> [optional: specific-host]
+
+example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM download/video  mp4 http://110.244.53.126/5000/
 ```
 
 ![Run The Full Client](http://i.imgur.com/67yoYRI.png) 
