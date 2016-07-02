@@ -1,4 +1,4 @@
-download21 - Serving files for satoshis via the 21 BC
+download21 - Serving files for satoshis using 21
 ===========================================================
 
 This is a project to allow device to device offline caching of files from streaming/music sites
@@ -36,7 +36,7 @@ Let's go through these options in depth.
 Getting Started Setting Up a Server
 ---------------
 
-SSH to your 21 Computer and follow along to get started
+Ensure you have 21 installed and follow along to get started
 
 The only dependency is youtube_dl which can be downloaded like so
 
