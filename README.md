@@ -1,17 +1,21 @@
 download21 - Serving files for satoshis using 21
 ===========================================================
 
-This is a project to allow device to device offline caching of files from streaming/music sites
+This is a project to allow device to device offline caching of files from
+streaming/music sites
 
-Wraps the [youtube_dl](https://github.com/rg3/youtube-dl) library under the Bitcoin Machine payments protocol for off-chain sales
+Wraps the [youtube_dl](https://github.com/rg3/youtube-dl) library under the
+Bitcoin Machine payments protocol for off-chain sales
 
 Supports the [following sites](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)
 
 
 Repository Contents
 -------------------
-* **/server** - Allows for running your own server for providing file downloads as a service
-* **/client** - Allows for extracting files from someone else's server for satoshis
+* **/server** - Allows for running your own server for providing file downloads
+  as a service
+* **/client** - Allows for extracting files from someone else's server for
+  satoshis
 
 Purchasing a File
 -----------------------
@@ -19,9 +23,11 @@ Purchasing a File
 Here's the full client call
 
 ```
-python3 download21client.py <link-to-video> <method-of-extraction> <format> [optional: specific-host]
+python3 download21client.py <link-to-video> <method-of-extraction> <format>
+[optional: specific-host]
 
-example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM download/video  mp4 http://10.244.53.126:5000/
+example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM
+download/video  mp4 http://10.244.53.126:5000/
 ```
 
 ![Run The Full Client](http://i.imgur.com/67yoYRI.png) 
@@ -59,9 +65,11 @@ cd download21
 
 ![Download](http://i.imgur.com/PFx83ZY.png) 
 
-In order, we are cloning a copy of this repository. It will be placed in the current folder under a new folder called 'download21'
+In order, we are cloning a copy of this repository. It will be placed in the
+current folder under a new folder called 'download21'
 
-We are then moving to the download21 folder to verify we have a 'client' and 'server' folder
+We are then moving to the download21 folder to verify we have a 'client' and
+'server' folder
 
 
 Running A Simple Server
@@ -80,10 +88,13 @@ Congrats, you're serving up files, anyone can now use your web server.
 Running the Demo Client
 -----------------------
 
-In order to simplify the operations, we packaged a demo version of the client that will extract some sample files
+In order to simplify the operations, we packaged a demo version of the client
+that will extract some sample files
+
 These files will be extracted from your own server.
 
-We are also assuming you are logged in as the account twenty-client and downloaded the files under the account twenty
+We are also assuming you are logged in as the account twenty-client and
+downloaded the files under the account twenty
 
 ```
 sudo chmod 777 /home/twenty/download21/client
@@ -92,7 +103,8 @@ python3 download21client.py sample
 ```
 ![Run The Demo Client](http://i.imgur.com/NFPU008.png) 
 
-This will download one youtube video as mp4, one youtube video as mp3 and one soundcloud file as mp3
+This will download one youtube video as mp4, one youtube video as mp3 and one
+soundcloud file as mp3
 
 Running the Full Client & Purchasing a File
 -----------------------
@@ -100,9 +112,11 @@ Running the Full Client & Purchasing a File
 Here's the full client call
 
 ```
-python3 download21client.py <link-to-video> <method-of-extraction> <format> [optional: specific-host]
+python3 download21client.py <link-to-video> <method-of-extraction> <format>
+[optional: specific-host]
 
-example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM download/video  mp4 http://110.244.53.126/5000/
+example: python3 download21client.py https://www.youtube.com/watch?v=GjO4hp4YxYM
+download/video  mp4 http://110.244.53.126/5000/
 ```
 
 ![Run The Full Client](http://i.imgur.com/67yoYRI.png) 
