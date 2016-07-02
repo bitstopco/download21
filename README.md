@@ -1,4 +1,4 @@
-download21 - Serving files for satoshis using 21
+download21 - Serving files for satoshis using [21](https://21.co/)
 ===========================================================
 
 This is a project to allow device to device offline caching of files from
@@ -42,11 +42,10 @@ Let's go through these options in depth.
 Getting Started Setting Up a Server
 ---------------
 
-Ensure you have 21 installed and follow along to get started
+Ensure [you have 21 installed](https://21.co/signup) and follow along to get
+started
 
 The only dependency is youtube_dl which can be downloaded like so
-
-
 
 ```
 sudo pip3 install youtube-dl
