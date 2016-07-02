@@ -92,12 +92,9 @@ that will extract some sample files
 
 These files will be extracted from your own server.
 
-We are also assuming you are logged in as the account twenty-client and
-downloaded the files under the account twenty
-
 ```
-sudo chmod 777 /home/twenty/download21/client
-cd /home/twenty/download21/client
+sudo chmod 777 /download21/client
+cd /download21/client
 python3 download21client.py sample
 ```
 ![Run The Demo Client](http://i.imgur.com/NFPU008.png) 
